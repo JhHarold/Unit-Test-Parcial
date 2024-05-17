@@ -1,16 +1,17 @@
 {
-  "name": "30-04-2024-testing",
+  "name": "testing",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.7.0"
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "save-dev": "^0.0.1-security"
   }
 }
